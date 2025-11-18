@@ -1,30 +1,24 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Java
+*.class
+
+# Carpetas de compilación
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Librería local (opcional: descomenta si NO quieres subir el JAR)
+# lib/gson-2.10.1.jar
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Sistema operativo
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code (por si acaso)
+.vscode/
